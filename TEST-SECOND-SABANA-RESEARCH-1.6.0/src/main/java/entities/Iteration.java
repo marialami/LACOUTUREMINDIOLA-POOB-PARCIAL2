@@ -24,7 +24,8 @@ public class Iteration {
 
     public Duration getDuration() throws SabanaResearchException{
 
-        Duration duration=Duration.ofDays(0);
+        Duration duration;
+        Duration duration1 = Duration.ofDays(0);
 
         if(this.activities.size()==0) {
 
@@ -34,9 +35,10 @@ public class Iteration {
         for (Activity a: this.activities) {
 
             duration = a.getDuration();
+            duration1.plus(duration);
         }
 
-        return duration;
+        return duration1;
     }
 
 }

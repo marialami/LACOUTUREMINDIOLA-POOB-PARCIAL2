@@ -20,7 +20,8 @@ public class NormalActivity extends Activity {
     @Override
     public Duration getDuration() throws SabanaResearchException {
 
-        Duration duration=Duration.ofDays(0);
+        Duration duration;
+        Duration duration1 = Duration.ofDays(0);
 
         if (this.steps.size()==0) {
 
@@ -30,8 +31,13 @@ public class NormalActivity extends Activity {
         for (Step s: this.steps) {
 
            duration = s.getDuration();
+           duration.plus(duration1);
         }
 
-        return duration;
+        return duration1;
+    }
+
+    public List<Step> getSteps() {
+        return steps;
     }
 }
