@@ -1,5 +1,11 @@
 ## SOLUTION
 
+IMPLEMENTANDO
+
+3. 
+![image](https://user-images.githubusercontent.com/78276253/115094674-034c5b80-9ee4-11eb-9a25-9b4fdb1b1464.png)
+
+
 DISEÑO
 
 1.  /**
@@ -68,7 +74,12 @@ DISEÑO
 
 EXTENDIENDO
 
+1.
 ![Diagrama de Clases Extendiendo](https://user-images.githubusercontent.com/78276253/115094485-54a81b00-9ee3-11eb-9626-0ae664564d13.png)
+
+2. Los diseños realizados deben editarse para que cada vez que se vaya a realizar una actividad, primero se verifique si esta actividad cumple con todas sus dependencias, en otras palabras si ya cumplió con todos sus prerequisitos.
+
+3. En mi diseño de diagrama de secuencia faltó validar si las actividades de las iteraciones tienen todas sus dependencias cumplidas, ya que si no no se podría realizar esa actividad. 
 
 
 CONCEPTOS
