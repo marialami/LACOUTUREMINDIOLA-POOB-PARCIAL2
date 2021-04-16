@@ -14,7 +14,8 @@ DISEÑO
 ![Diagrama de secuencia Synthetizers](https://user-images.githubusercontent.com/78276253/115091935-96829280-9ede-11eb-8de9-3f8c56907241.png)
 
 3.
-![Diagrama de Clases Actualizado](https://user-images.githubusercontent.com/78276253/115093547-51f7f680-9ee0-11eb-888a-36548023e43d.png)
+![Diagrama de Clases Actualizado (1)](https://user-images.githubusercontent.com/78276253/115094175-41488000-9ee2-11eb-94f7-c71a5f00749d.png)
+
 
 4. /**
      * Get the student synthetizer
