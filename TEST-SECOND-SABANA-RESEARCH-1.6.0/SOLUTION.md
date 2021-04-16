@@ -1,5 +1,9 @@
 ## SOLUTION
 
+DISEÑO
+![Diagrama de secuencia Synthetizers](https://user-images.githubusercontent.com/78276253/115091935-96829280-9ede-11eb-8de9-3f8c56907241.png)
+
+
 CONCEPTOS
 
 1. ¿Cuáles son las acciones los tres momentos importantes de las excepciones? ¿Cuál es el objetivo de cada una? ¿Cómo se implementa en Java cada acción?
