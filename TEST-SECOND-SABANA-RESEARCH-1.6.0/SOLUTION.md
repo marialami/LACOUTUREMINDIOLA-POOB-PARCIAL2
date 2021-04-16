@@ -66,6 +66,11 @@ DISEÑO
      public String getDuration() {}
 
 
+EXTENDIENDO
+
+![Diagrama de Clases Extendiendo](https://user-images.githubusercontent.com/78276253/115094485-54a81b00-9ee3-11eb-9626-0ae664564d13.png)
+
+
 CONCEPTOS
 
 1. ¿Cuáles son las acciones los tres momentos importantes de las excepciones? ¿Cuál es el objetivo de cada una? ¿Cómo se implementa en Java cada acción?
