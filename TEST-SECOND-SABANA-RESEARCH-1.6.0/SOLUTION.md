@@ -2,7 +2,60 @@
 
 DISEÑO
 
+1.  /**
+     * Summarize the duration of a project
+     *
+     * @return the duration of the project
+     */
+     public Duration summarize() {}
+     
+2.
 ![Diagrama de secuencia Synthetizers](https://user-images.githubusercontent.com/78276253/115091935-96829280-9ede-11eb-8de9-3f8c56907241.png)
+
+3.
+![Diagrama de Clases Actualizado](https://user-images.githubusercontent.com/78276253/115093547-51f7f680-9ee0-11eb-888a-36548023e43d.png)
+
+4. /**
+     * Get the student synthetizer
+     *
+     * @return the student synthetizer
+     */
+     public Duration getStudentSynthetizer() {}
+     
+     /**
+     * Get the executive synthetizer
+     *
+     * @return the executive synthetizer
+     */
+     public Duration getExecutiveSynthetizer() {}
+     
+      /**
+     * Get the student name
+     *
+     * @return the student name
+     */
+     public String getName() {}
+     
+     /**
+     * Get the student working duration
+     *
+     * @return the student working duration
+     */
+     public Duration getWorkingDuration() {}
+     
+     /**
+     * Get the iteration goal
+     *
+     * @return the iteration goal
+     */
+     public String getGoal() {}
+     
+     /**
+     * Get the iteration duration
+     *
+     * @return the iteration duration
+     */
+     public String getDuration() {}
 
 
 CONCEPTOS
