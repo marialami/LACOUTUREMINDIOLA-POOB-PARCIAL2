@@ -7,6 +7,7 @@ DISEÑO
      *
      * @return the duration of the project
      */
+     
      public Duration summarize() {}
      
 2.
@@ -20,6 +21,7 @@ DISEÑO
      *
      * @return the student synthetizer
      */
+     
      public Duration getStudentSynthetizer() {}
      
      /**
@@ -27,6 +29,7 @@ DISEÑO
      *
      * @return the executive synthetizer
      */
+     
      public Duration getExecutiveSynthetizer() {}
      
       /**
@@ -34,6 +37,7 @@ DISEÑO
      *
      * @return the student name
      */
+     
      public String getName() {}
      
      /**
@@ -41,6 +45,7 @@ DISEÑO
      *
      * @return the student working duration
      */
+     
      public Duration getWorkingDuration() {}
      
      /**
@@ -48,6 +53,7 @@ DISEÑO
      *
      * @return the iteration goal
      */
+     
      public String getGoal() {}
      
      /**
@@ -55,6 +61,7 @@ DISEÑO
      *
      * @return the iteration duration
      */
+     
      public String getDuration() {}
 
 
