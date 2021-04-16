@@ -28,7 +28,20 @@ public class Project {
     }
 
     public Duration getDuration() throws SabanaResearchException {
-        return Duration.ofDays(0);
+
+        Duration duration=Duration.ofDays(0);
+
+        if (this.iterations.size() == 0) {
+
+            throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_PROJECT);
+        }
+
+        for (Iteration i: this.iterations) {
+
+            duration = i.getDuration();
+        }
+
+        return duration;
     }
 
 
