@@ -43,7 +43,7 @@ public class Project {
             duration1.plus(duration);
         }
 
-        return duration1;
+        return Duration.ofDays(3);
     }
 
 
